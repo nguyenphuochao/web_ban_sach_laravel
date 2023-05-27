@@ -1,0 +1,192 @@
+/* reset css */
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Navigation */
+nav{
+    color: white;
+    font-weight: 700;
+    height: auto;
+    background-color: #00CC66;
+}
+nav div a{
+
+    color: white;
+}
+nav div a:hover{
+    background-color: white;
+    color: black;
+}
+.nav-bottom{
+    height: auto;
+    background-color: #FFFFFF;
+}
+.nav-bottom #menu_cate{
+    cursor: pointer;
+}
+/* header */
+.header{
+    margin-left: -29px;
+}
+.header ul li{
+    list-style-type:none;
+    padding: 5px 0px;
+    position: relative;
+}
+.header ul li a{
+    width: 100%;
+    display: inline-block;
+    padding: 3px 0px;
+    color: black;
+}
+.header ul li a:hover{
+    background-color: #00CC66;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+
+}
+/* Cấp 2 */
+.header ul li ul#menu-2{
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    z-index: 999;
+    width: 300px;
+    background-color: #F2F2F2;
+    border: 1px solid white;
+}
+.header ul li:hover ul#menu-2{
+    display: block;
+    padding-left: 0px;
+}
+
+/* Content */
+.content .h6{
+    height: 36px;
+    width: 100%;
+    background-color: #F2F2F2;
+}
+.content h6{
+    display: inline-block;
+    background-color: #00CC66;
+    padding: 8px;
+    border-radius: 0px 20px 20px 0px;
+}
+.content .content-1 .discount {
+    position: relative;
+}
+.content .content-1 .discount  span{
+    position: absolute;
+    top: 0px;
+    right: 92px;
+    width: 50px;
+    height: 35px;
+    background-color: #FFC000;
+    border-radius: 66px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+.content .content-2 .discount {
+    position: relative;
+}
+.content .content-2 .discount  span{
+    position: absolute;
+    top: 0px;
+    right: 92px;
+    width: 50px;
+    height: 35px;
+    background-color: #FFC000;
+    border-radius: 66px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+.content .content-3 .discount {
+    position: relative;
+}
+.content .content-3 .discount  span{
+    position: absolute;
+    top: 0px;
+    right: 92px;
+    width: 50px;
+    height: 35px;
+    background-color: #FFC000;
+    border-radius: 66px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+/* Footer */
+footer{
+    margin-top: 50px;
+}
+/* Xử lí hover của menu  */
+li{
+    list-style-type: none;
+}
+.nav-bottom #menu{
+    width: 250px;
+    position: relative;
+}
+
+.nav-bottom #menu ul{
+ display: none;
+ margin-left: 0px;
+ position: absolute;
+ top: 100%;
+ left: 0px;
+
+}
+.nav-bottom  #menu:hover ul{
+    display: block;
+    background-color:#FFFFFF;
+    border: 1px solid gainsboro;
+    width: 200px;
+    padding-left: 0px;
+}
+
+.nav-bottom #menu ul li{
+    list-style-type:none;
+    padding: 5px 0px;
+    position: relative;
+
+}
+.nav-bottom #menu ul li a{
+    width: 100%;
+    display: inline-block;
+    padding: 3px 0px;
+    color: black;
+}
+.nav-bottom #menu ul li a:hover{
+    background-color: #00CC66;
+    padding-left: 10px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+     width: 100%;
+}
+/* Cấp 2 */
+.nav-bottom #menu ul li ul#menu-2{
+    position: absolute;
+    left: 100%;
+    top: 0px;
+    display: none;
+}
+.nav-bottom #menu ul li:hover ul#menu-2{
+    display: block;
+
+}
+/* reponsive */
+@media screen and (max-width:768px) {
+    .header #menu_home{
+        display: none;
+    }
+}
+

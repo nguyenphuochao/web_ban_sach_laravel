@@ -1,0 +1,46 @@
+.detail button.color{
+    color: white;
+    font-weight: 500;
+    background-color: #FF3300;
+
+}
+.detail .text-color{
+    color: #00CC66;
+}
+.detail hr{
+    color: rgb(189, 185, 185);
+}
+.detail table tr:nth-child(2n){
+    background-color: #F2F2F2;
+}
+.detail .margin-top{
+    margin-top: 90px;
+}
+#content{
+    height: 200px;
+    overflow: hidden;
+
+}
+.detail #show_content{
+    width: 447px;
+    height: 44px;
+    background-color: #00CC66;
+    margin: 0 auto;
+    color: white;
+    cursor: pointer;
+}
+.detail #show_content:hover{
+    background-color:#029243 ;
+}
+.detail #hide_content{
+    width: 447px;
+    height: 44px;
+    background-color: #00CC66;
+    margin: 0 auto;
+    color: white;
+    display: none;
+    cursor: pointer;
+}
+.detail #hide_content:hover{
+    background-color:#029243 ;
+}

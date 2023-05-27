@@ -1,0 +1,16 @@
+.order_finish{
+    text-align: center;
+    margin-top: 30px;
+}
+.order_finish .check{
+    font-size: 52px;
+    background-color: #036937;
+    display: inline-block;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    color: white;
+}
+.order_finish >h3{
+    margin-top: 20px;
+}
