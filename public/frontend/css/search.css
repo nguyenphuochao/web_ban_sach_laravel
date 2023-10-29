@@ -1,0 +1,17 @@
+.search .nav-item .nav-link.active {
+    background-color:#00CC66;
+}
+.search #discount{
+    position: relative;
+}
+.search .tab-content #discount span{
+    position: absolute;
+    top: -4px;
+    right: 66px;
+    background-color: #FFC000;
+    width: 47px;
+    height: 32px;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,31 @@
+.product ul div{
+     background-color: #00CC66;
+     height: 30px;
+     padding: 4px;
+     color: white;
+     font-weight: bold;
+}
+.product ul li a{
+    color: black;
+}
+.product ul li a:hover{
+    color: #00CC66;
+}
+.product ul{
+    background-color: #F2F2F2;
+    padding: 10px;
+}
+.product .cart{
+    position: relative;
+}
+.product span.discount{
+    position: absolute;
+    top: 1px;
+    right: 31px;
+    background-color: #FFC000;
+    width: 51px;
+    height: 36px;
+    border-radius: 16px;
+    color: white;
+    font-weight: bold;
+}
